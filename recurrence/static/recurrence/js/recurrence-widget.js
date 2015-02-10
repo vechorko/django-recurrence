@@ -253,10 +253,9 @@ recurrence.widget.Calendar.prototype = {
                         }
                     }
                 });
-
-            if (this.onchange)
-                this.onchange(this.date);
         }
+        if (this.onchange)
+                this.onchange(this.date);
     },
 
     set_position: function(x, y) {
